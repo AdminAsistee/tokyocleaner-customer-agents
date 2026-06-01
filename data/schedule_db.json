@@ -1,0 +1,7 @@
+{
+  "monday": {"status": "Fully Booked", "available_slots": []},
+  "tuesday": {"status": "Open", "available_slots": ["09:00", "13:00", "15:00"]},
+  "wednesday": {"status": "Open", "available_slots": ["10:00", "14:00"]},
+  "thursday": {"status": "Fully Booked", "available_slots": []},
+  "friday": {"status": "Open", "available_slots": ["09:00", "11:00"]}
+}

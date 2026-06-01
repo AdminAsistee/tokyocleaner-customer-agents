@@ -1,0 +1,199 @@
+================================================================================
+TOKYO CLEANER - SERVICES, PRICING, AND OPERATIONAL MATRIX REFERENCE
+Source: https://www.tokyocleaner.jp/services & Associated Configuration Specs
+================================================================================
+
+This document serves as the absolute technical configuration and knowledge base
+reference file for Tokyo Cleaner (tokyocleaner.jp). It details the core service 
+offerings, exact commercial pricing matrices, service area restrictions, specific 
+operational boundaries, and room-by-room tasks required to implement automated 
+conversational frameworks (such as Antigravity Agent 3).
+
+--------------------------------------------------------------------------------
+1. COMPANY OVERVIEW & CORE MISSION
+--------------------------------------------------------------------------------
+Tokyo Cleaner is a premier, customer-oriented, English-first residential and 
+commercial cleaning agency operating in Tokyo, Japan. The service bridges the gap 
+for international residents, busy corporate executives, property managers, and 
+vacation rental (Airbnb) hosts by providing background-checked, internally trained, 
+and fully bilingual (English-speaking) cleaning professionals.
+
+Key Performance Indicators (Historical Performance Record):
+* Residential Clients Served: 5,163+
+* Corporate Cleaning Accounts: 406+
+* Vacation Rental/Airbnb Units Cleaned: 17,027+
+* Insurance Status: Fully Insured
+* Guarantee: 100% Customer Satisfaction
+
+--------------------------------------------------------------------------------
+2. GEOGRAPHIC SERVICE FOOTPRINT & CONSTRAINT LOGIC
+--------------------------------------------------------------------------------
+Tokyo Cleaner adheres to a strict logistical boundary to maintain punctual delivery.
+
+Core Service Footprint (The 5 Central Wards):
+- Minato-ku (港区)
+- Chiyoda-ku (千代田区)
+- Chuo-ku (中央区)
+- Shinjuku-ku (新宿区)
+- Shibuya-ku (渋谷区)
+
+Outer Logistics Restriction Rule:
+If a client provides an address or asks for services located outside of these 
+5 Central Wards (for instance: Shinagawa-ku, Meguro-ku, Oota-ku, Setagaya-ku/Yoga, 
+Nakano-ku, Suginami-ku, Nerima-ku, Taito-ku, Sumida-ku, Koto-ku, Arakawa-ku, 
+Adachi-ku, Katsushika-ku, Edogawa-ku, Bunkyo-ku, Toshima-ku, Kita-ku, Itabashi-ku), 
+the system/agent must flag a location disclaimer to prevent automatic fulfillment:
+"Our team primarily focuses within the 5 central wards of Central Tokyo. Let me log 
+this location details to verify staff logistics availability before confirming."
+
+Accessibility Requirement: 
+Even within valid service areas, service is only available for properties within a 
+15-minute walk from the nearest station to ensure smooth logistics and easy staff access.
+
+--------------------------------------------------------------------------------
+3. COMMERCIAL PRICING PACKAGES & HOURLY ALLOCATIONS
+--------------------------------------------------------------------------------
+All rates listed below represent baseline costs and EXCLUDE the standard 10% 
+Japanese consumption tax. 
+
+A. Flat-Rate Layout Pricing Structure (Standard Residential Plans)
+* Studio / Single Room Apartment
+  - Rate: ¥6,400 per cleaning
+  - Allocation: Up to 1.5 Hours max
+  - Staffing: 1 Cleaner
+  - Scope: Bathroom, Washroom, Toilet, Living Space, Cleaning Supplies Included
+
+* 1LDK Apartment (1 Bedroom + Living/Dining/Kitchen)
+  - Rate: ¥8,050 per cleaning
+  - Allocation: Up to 2.5 Hours max
+  - Staffing: 1 Cleaner
+  - Scope: Full room-by-room maintenance, Cleaning Supplies Included
+
+* 2LDK Apartment (2 Bedrooms + Living/Dining/Kitchen)
+  - Rate: ¥9,600 per cleaning
+  - Allocation: Up to 3.0 Hours max
+  - Staffing: 1 Cleaner
+  - Scope: Full room-by-room maintenance, Cleaning Supplies Included
+
+* 3LDK Apartment (3 Bedrooms + Living/Dining/Kitchen)
+  - Rate: ¥12,800 per cleaning
+  - Allocation: Up to 3.0 Hours max
+  - Staffing: 1 Cleaner
+  - Scope: Full room-by-room maintenance, Cleaning Supplies Included
+
+B. The Express Plan (Short-Notice Specialization)
+* Service Window: Provided strictly from 9:00 am to 5:00 pm.
+* Time Constraint: Fixed duration of 120 minutes. No extensions of service can be accepted.
+* Contract Rule: The contract is officially established the moment the customer calls to request the service. 
+* Cancellation Policy: Cancellations after establishing an Express contract are completely non-refundable (100% of the service fee will be charged as a cancellation fee).
+
+C. Trial & First-Time Custom Rates
+* 1-Day Trial Cleaning Plan (For clients establishing regular recurring plans)
+  - Basic Option: ¥10,500 per cleaning (1 Staff, Maximum 2 Hours)
+  - Premium Double Option: ¥22,000 per cleaning (2 Staff per visit, Maximum 2 Hours)
+  - Conditions: Includes cleaning supplies. Focuses heavily on Kitchen, Bathroom, Wash Basin, Toilet, Floor Vacuum & Mop.
+
+D. Recurring Service Packages
+* Routine frequencies available: 
+  - Once a Month (Starts at ¥8,500/clean baseline)
+  - Bi-Monthly / Twice a Month (Starts at ¥9,900 / ¥6,800 details varying by contract)
+  - Weekly / Once a Week (Starts at ¥8,000 / ¥7,000 baseline variants)
+  - Monday through Friday Plans (Starts at ¥6,500/clean baseline)
+
+E. Rate Surge Surcharge Multipliers
+* An automatic 20% Percentage Increase applies to the baseline rate for:
+  - Early Morning Service
+  - Evening/Night Service
+  - National Japanese Holidays
+
+--------------------------------------------------------------------------------
+4. RIGID SERVICE LIMITATIONS & HARD BOUNDARIES (CRITICAL FOR INTAKE)
+--------------------------------------------------------------------------------
+To manage client expectations, any AI or human intake framework must explicitly 
+communicate what Tokyo Cleaner CANNOT do:
+
+1. NO Laundry Services: The staff will not wash, dry, or fold clothes.
+2. NO Ironing Services: Ironing of apparel is strictly excluded.
+3. NO Deep Carpet/Sofa Shampooing: Steam cleaning or chemical deep extractions 
+   for furniture, drapery, or heavy carpets are not supported.
+4. Utility Requirement: Running electricity and active water utilities MUST be 
+   turned on and accessible inside the unit during the entire service. (Crucial for Move-out Cleanings).
+5. On-Site Vacuum Requirement: Customers are required to provide their own working 
+   vacuum cleaner on-site for regular residential plans and express cleaning plans.
+6. Refill Exclusions: Refills for cleaning supplies or guest amenities (for Airbnbs) 
+   incur separate extra charges.
+7. First-Time Room Photo Verification Policy: If a user is a first-time client, 
+   they MUST email high-resolution photos of their room or property's current 
+   condition to info@tokyocleaner.jp post-booking for final assessment. First-time 
+   bookings must also explicitly specify the property size.
+8. Short-Notice Buffer: Standard bookings require a minimum of 24 hours advance notice. 
+   If a customer wishes to request emergency same-day service, they must call the hotline 
+   by 12:00 pm at the latest, entirely subject to staff real-time availability.
+9. NO Balcony Cleaning under Express: Balcony cleaning is strictly excluded from 
+   Express Cleaning plans. Balcony cleaning requires an additional extra time booking 
+   as it is highly labor-intensive.
+10. Accepted Methods of Payment: Credit card and bank transfer only.
+
+--------------------------------------------------------------------------------
+5. SERVICE TASK CHECKLIST BY AREA
+--------------------------------------------------------------------------------
+Every standard service package covers specific, meticulous tasks across four 
+primary residential quarters:
+
+A. Living Area
+- Tidy, dust, and thoroughly sanitize all living surfaces.
+- Wipe and sanitize frequently-touched hardware: handles, plates, and light switches.
+- Polish mirrors and glass fixtures.
+- Empty internal trash bins and replace trash liner bags if replacements are provided.
+- Complete floor maintenance: full vacuuming and wet mopping.
+- Pet-friendly cleaning customizations are available strictly upon explicit request.
+
+B. Kitchen Area
+- Dust and wipe down countertops, dining tables, and seating chairs.
+- Clean and sanitize exterior appliance surfaces: cabinet doors, refrigerator faces, 
+  stovetops, and exterior oven structures.
+- Sweep, vacuum, and mop heavy-traffic kitchen floors.
+- Polish and deep-sanitize sink basin, faucet controls, and counters.
+- Separate and empty trash and recycling containers (replacing liner bags).
+
+C. Bedroom Area
+- Dust and clean all accessible bedside tables, desks, and shelving surfaces.
+- Wipe down and sanitize door handles, light fixtures, and wall mirrors.
+- Make up the bed structure using fresh linen (linens must be placed out by the 
+  client prior to the cleaner's arrival).
+- Complete vacuum and floor mop sweeps.
+
+D. Bathroom & Toilet Area
+- Scrub, sanitize, and polish the toilet unit, bathtub/shower stalls, sink basins, 
+  and primary mirrors.
+- Wipe down cabinetry exteriors, handles, and electrical plates.
+- Empty the small bathroom wastebins, refresh liners, and mop floor tilings.
+
+--------------------------------------------------------------------------------
+6. CORPORATE & VACATION RENTAL SPECS
+--------------------------------------------------------------------------------
+* Segment 01: Luxury Residential (Bespoke high-end estate management)
+* Segment 02: Vacant Homes / Moving Cleanings (Deep lease-end handover checks; utilities must be active)
+* Segment 03: Commercial Office Spaces (Tailored non-business hours operations)
+* Segment 04: Vacation/Airbnb Rentals (Fast turnaround turnover execution, key-box 
+  synchronization, guest preparation, over 17k checkouts completed)
+* Segment 05: Post-Construction Cleans (Debris dust and structural wipe-downs)
+
+--------------------------------------------------------------------------------
+7. ADMINISTRATIVE CORE CONTACT DATA
+--------------------------------------------------------------------------------
+- Corporate Address: 2-15-1 Dogenzaka, Shibuya, Tokyo, Japan 150-0043
+- Primary Hotline Phone: 080-8121-8105
+- Primary Inbound Support Email: info@tokyocleaner.jp
+- Booking Window Protocol: Cleaners are dispatched inside a standard daytime 
+  window of 9:00 AM – 5:00 PM. Cleaners' individual contact vectors are provided 
+  to the client exactly 24 hours prior to the booking start time.
+================================================================================
+
+Cleaning Supplies : 
+
+Glass Cleaner
+Toilet Cleaner
+Mold Cleaner
+Kitchen Bleach
+
